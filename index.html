@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <script src="./game.js"></script>
+    <script src="./game1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.16/dist/index.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="confetti-canvas"></canvas>
+    <div class="gamemain" style="visibility: hidden;">
+        <div class="gamecard">
+            <div class="image">
+                <img id="teamimg" src="" alt="CSK">
+            </div>
+            <div class="title">
+                <h1 id="team1">Anguilla</h1>
+            </div>
+            <div id="score">
+                <div id="progress01">
+                    <div class='prog' id="qIndex" ></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+        <div id="board">
+            <h3 id="result" style="visibility: hidden;">Result</h3>
+            <button type="button" style="visibility: hidden;" class="btn2" id="btn" onclick="play1()">Shoot </button>
+        </div>
+        <div class="gamecard">
+            <div class="image">
+                <img id="teamimg1" src="./image/Bermuda.png" alt="DD">
+            </div>
+            <div class="title">
+                <h1 id="team2">Bermuda</h1>
+            </div>
+            <div id="score">
+                <div id="progress02">
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+
+    <div class="gamemain1">
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/Anguilla.png" alt="CSK">
+            </div>
+            <div class="title">
+                <h1 id="team11">Anguilla</h1>
+            </div>
+            <div id="score">
+                <div id="progress">
+                    <div class='prog' id="qIndex" ></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+        <div id="board">
+            <h3 id="result1" style="visibility: hidden;">Result</h3>
+            <button type="button" id="btn"class="btn1" onclick="level2()">Shoot </button>
+        </div>
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/Armenia.png" alt="DD">
+            </div>
+            <div class="title">
+                <h1 id="team12">Armenia</h1>
+            </div>
+            <div id="score">
+                <div id="progress1">
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/Benin.png" alt="CSK">
+            </div>
+            <div class="title">
+                <h1 id="team21">Benin</h1>
+            </div>
+            <div id="score">
+                <div id="progress21">
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+        <div id="board">
+            <h3 id="result2" style="visibility: hidden;">Result</h3>
+            <button type="button" id="btn" class="btn" onclick="level1()">Shoot </button>
+        </div>
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/Bermuda.png" alt="DD">
+            </div>
+            <div class="title">
+                <h1 id="team22">Bermuda</h1>
+            </div>
+            <div id="score">
+                <div id="progress22">
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                    <div class='prog' id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
